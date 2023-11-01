@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import { View, Text, StyleSheet, Image,ScrollView  } from 'react-native';
+import { View, Text, StyleSheet, Image,ScrollView,TouchableOpacity  } from 'react-native';
 import { Ionicons, Octicons, AntDesign,MaterialIcons  } from '@expo/vector-icons'; 
-import { TouchableOpacity } from 'react-native-web';
 
 export default function Screen2({ navigation }) {
 
