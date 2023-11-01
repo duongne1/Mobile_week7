@@ -111,7 +111,7 @@ export default function Screen4() {
           return null;
         })}
       </ScrollView>
-      <TouchableOpacity style={styles.top1}>
+      <TouchableOpacity style={styles.top1} onPress={()=> navigation.navigate('Screen1')}>
         <Text style={styles.text4}>PAY NOW</Text>
       </TouchableOpacity>
     </View>

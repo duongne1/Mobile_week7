@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         height: 844,
         borderWidth: 1,
         flex: 5,
-        backgroundColor: '#DEE1E6',
+        backgroundColor: 'white',
     },
     text1:{
         backgroundColor: '#00BDD6',
